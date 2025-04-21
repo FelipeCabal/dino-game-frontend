@@ -108,7 +108,7 @@ export function Register() {
                         <label className="text-xl text-gray-700">PAÍS</label>
                         <select
                             id="pais"
-                            className="rounded p-2 bg-[#303030] focus:outline-none focus:ring-2 focus:ring-green"
+                            className="rounded p-2 bg-placeholder focus:outline-none focus:ring-2 focus:ring-green"
                             value={formData.pais}
                             onChange={handleChange}
                         >
