@@ -100,7 +100,7 @@ export function Login() {
                     <button
                         type="submit"
                         className="primary-button w-full sm:w-auto"
-                        onClick={login}
+                        onClick={(e) => login(e)}
                     >
                         INICIAR SESIÓN
                     </button>
